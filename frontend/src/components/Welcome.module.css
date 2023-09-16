@@ -1,0 +1,42 @@
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome h1 {
+    margin: 10px 10px;
+}
+
+.welcome h3 {
+    margin: 0 10px;
+}
+
+
+.cartDiv {
+    display: flex;
+    border: 1px solid #111;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.cartDiv button {
+    background-color: transparent;
+    border: none;
+}
+
+.cartDiv:hover, .cartDiv button:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.cart {
+    width: 20px;
+    height: 25px;
+}
+
+.cart:hover {
+   color: #fff;
+   cursor: pointer;
+}

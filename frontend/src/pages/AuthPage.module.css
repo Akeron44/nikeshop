@@ -1,0 +1,77 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form div label {
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+.form div input {
+    border: 1.5px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    width: 450px;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 33%;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+}
+
+.actions a {
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #111;
+    padding: 0.4rem 1.4rem;
+    border-radius: 4px;
+    color: #111;
+}
+
+.actions button:hover {
+    background-color: #201e1e;
+    transform: scale(0.98);
+    transition: 0.1s ease-in;
+}
+
+.actions a:hover {
+    transform: scale(1.02);
+    transition: 0.1s ease-in;
+}
+
+.errors {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.errors li {
+    list-style: none;
+    color: rgb(203, 16, 16);
+    margin-top: 10px;
+}
