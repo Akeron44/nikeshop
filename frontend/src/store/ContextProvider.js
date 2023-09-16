@@ -44,8 +44,7 @@ const cartReducer = (state, action) => {
         const exisitingCartItem = state.items[existingCartItemIndex];
         const updatedTotalPrice = state.totalPrice - exisitingCartItem.price
         let updatedItems; 
-        console.log("1",exisitingCartItem.amount, typeof(exisitingCartItem.amount) )
-        if (+exisitingCartItem.amount === 1) {
+        if (+exisitingCartItem.amount === 1) { // + in order to convert it from string to number
             console.log("2",exisitingCartItem)
             // when I add only 1, then it goes to 0 and - 
             // when
